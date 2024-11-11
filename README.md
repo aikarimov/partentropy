@@ -2,7 +2,7 @@
 Calculate partitioned entropy for a signal. The main idea is taken from the publication [1]. 
 Typical use is as follows:
 
-```
+```matlab
 load t, Y %load time and Y of the  experimental data
 k = 64; %number of clusters
 taumax = 3; %max time for the experiment
